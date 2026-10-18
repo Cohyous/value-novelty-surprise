@@ -1,0 +1,11 @@
+{
+    "model_name": "specter_final",
+    "best_iteration": 793,
+    "best_threshold": 0.3801507537688442,
+    "test": {
+        "PR_AUC": 0.4232158950322031,
+        "F1": 0.46077405857740583,
+        "Recall": 0.9239643418982695,
+        "Precision": 0.3069151715728967
+    }
+}

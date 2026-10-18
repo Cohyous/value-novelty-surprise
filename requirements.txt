@@ -1,0 +1,27 @@
+# Core
+numpy
+pandas
+scipy
+scikit-learn
+
+# Models
+catboost
+torch
+torch-geometric
+transformers
+
+# Graph / similarity
+faiss-cpu
+networkx
+
+# Text features
+textstat
+
+# Plotting / IO
+matplotlib
+joblib
+openpyxl
+
+# Versions are intentionally unpinned; install the builds of torch / faiss that
+# match your platform and CUDA. The archived experiments/ notebooks additionally
+# use xgboost, optuna, and imbalanced-learn (not required for the main pipeline).

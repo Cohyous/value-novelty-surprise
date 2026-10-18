@@ -1,0 +1,35 @@
+# Python
+*.pyc
+__pycache__/
+
+# OS
+.DS_Store
+
+# Local experiments / abandoned explorations (kept on disk, not published)
+experiments/
+
+# Auto-generated training logs and tuning artifacts
+catboost_info/
+**/catboost_info/
+optuna_results/
+
+# Result logs from the archived tuning notebook
+full_model_results.xlsx
+comprehensive_model_results*.txt
+
+# Large similarity matrices
+*.memmap
+
+# AI-drafted paper (results live in the README instead)
+paper.docx
+
+# Stray plot exports (the notebooks render these inline)
+kg/SAGE_loss.png
+kg/output.png
+
+# Datasets (supply locally per data/README.md; do not commit large corpora)
+data/*
+!data/README.md
+
+# Redundant grid-search intermediates (identical to specter_model; deployed = specter_final_final)
+val_pred/results/specter_tuning_*
